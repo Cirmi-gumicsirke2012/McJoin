@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Az Én Szuper Weboldalam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Navigáció -->
+    <nav class="p-6 flex justify-between items-center bg-gray-800 shadow-xl">
+        <div class="text-2xl font-bold text-cyan-400">PROJEKT_X</div>
+        <div class="space-x-6">
+            <a href="#" class="hover:text-cyan-400 transition">Kezdőlap</a>
+            <a href="#" class="hover:text-cyan-400 transition">Rólam</a>
+            <a href="#" class="bg-cyan-500 hover:bg-cyan-600 px-4 py-2 rounded-lg transition text-gray-900 font-bold">Kapcsolat</a>
+        </div>
+    </nav>
+
+    <!-- Hero szekció -->
+    <header class="flex flex-col items-center justify-center text-center py-32 px-4">
+        <h1 class="text-6xl font-extrabold mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            Üdvözöllek a weboldalamon!
+        </h1>
+        <p class="text-xl text-gray-400 max-w-2xl mb-8">
+            Ez egy villámgyorsan elkészült weboldal sablon, amit kedvedre alakíthatsz. Modern, sötét módos dizájn és letisztult elemek.
+        </p>
+        <button onclick="alert('Köszi a kattintást!')" class="px-8 py-3 bg-cyan-500 hover:bg-cyan-400 text-gray-900 font-bold rounded-full text-lg shadow-lg transform hover:scale-105 transition">
+            Lássunk munkához!
+        </button>
+    </header>
+
+    <!-- Kártyák -->
+    <section class="grid md:grid-cols-3 gap-8 px-10 pb-20">
+        <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-cyan-500 transition">
+            <h3 class="text-xl font-bold mb-2">Gyorsaság</h3>
+            <p class="text-gray-400">A Tailwind CSS segítségével a stílusok azonnal betöltenek.</p>
+        </div>
+        <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-cyan-500 transition">
+            <h3 class="text-xl font-bold mb-2">Reszponzív</h3>
+            <p class="text-gray-400">Mobilon, tableten és gépen is tökéletesen néz ki.</p>
+        </div>
+        <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-cyan-500 transition">
+            <h3 class="text-xl font-bold mb-2">Modern</h3>
+            <p class="text-gray-400">Sötét háttér és vibráló színek a 2024-es trendek szerint.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-10 border-t border-gray-800 text-gray-500">
+        <p>© 2024 Minden jog fenntartva | Készült AI segítséggel</p>
+    </footer>
+
+</body>
+</html>
